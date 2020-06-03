@@ -79,7 +79,7 @@ const {
   secondsToTimecode,
   timecodeToSeconds,
   shortTimecode
-} = require("@pietrop/react-transcript-editor/timecodeConverter");
+} = require("./util/timecode-converter");
 
 
 /**

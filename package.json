@@ -1,7 +1,7 @@
 {
-  "name": "@pietrop/edl-composer",
+  "name": "@aws-kens/edl-composer",
   "version": "2.0.0",
-  "description": "ELD composer can be used to create Edit Decision List. EDL, Edit Decision List, is a plain text format that describes a video sequence. It can be opened in a video editing software to reconnect media to assemble a video sequence",
+  "description": "A fork of @pietrop/edl-composer project to remove @pietrop/react-transcript-editor dependency. ELD composer can be used to create Edit Decision List. EDL, Edit Decision List, is a plain text format that describes a video sequence. It can be opened in a video editing software to reconnect media to assemble a video sequence",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pietrop/edl-composer"
+    "url": "https://github.com/aws-kens/edl-composer"
   },
-  "author": "Pietro Passarelli <pietro.passarelli@gmail.com> (http://pietropassarelli.com)",
+  "author": "aws-kens",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^23.5.0"
+    "jest": "^26.0.1"
   }
 }

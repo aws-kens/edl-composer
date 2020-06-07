@@ -1,5 +1,7 @@
 ## Edl Composer
 
+This is a fork of [pietrop/edl_composer](https://github.com/pietrop/edl-composer) project. The only change is to remove @pietrop/react-transcript-editor dependency to make the package more lean.
+
 The EDL composer node module can be used to create Edit Decision List. 
 EDL, Edit Decision List, is a plain text format that describes a video sequence. It can be opened in a video editing software to reconnect media to assemble a video sequence. Originally extracted from autoEdit.io
 
@@ -11,7 +13,7 @@ EDL, Edit Decision List, is a plain text format that describes a video sequence.
 Clone the repo
  
 ```
-git clone git@github.com:pietrop/edl_composer.git
+git clone git@github.com:aws-kens/edl_composer.git
 ```
 
 Install dependencies 
@@ -23,15 +25,6 @@ And if you want to try it out
 
 ```
 node example-usage.js
-```
-
-### Setup for usage
-
-To use in your project, the module can be found on [npm as `@pietrop/edl-composer`](https://www.npmjs.com/package/@pietrop/edl-composer)
-so just run the following to add to your project. 
-
-```
-npm install @pietrop/edl-composer
 ```
 
 ## Usage
